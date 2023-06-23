@@ -1,15 +1,30 @@
-.Counter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .Controls {
+.Container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+  }
+  
+  .Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Label {
     margin-bottom: 10px;
+  }
+  
+  .Input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
   .Button {
@@ -24,11 +39,6 @@
   
   .Button:hover {
     background-color: #36a6b4;
-  }
-  
-  .Number {
-    margin: 0 20px;
-    font-size: 18px;
   }
   
   .Button:disabled {

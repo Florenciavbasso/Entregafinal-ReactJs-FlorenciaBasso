@@ -1,0 +1,51 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #36a5b49f;
+  }
+  
+  .NavBar h3 {
+    color: white;
+    font-style: italic;
+    margin: 0;
+    font-size: 24px;
+    text-decoration: none;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  .Categories {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .Option {
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .Option:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .ActiveOption {
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color: #36a6b4;
+    border-radius: 4px;
+  }
+  
+  .ActiveOption:hover {
+    background-color: #36a6b4;
+  }

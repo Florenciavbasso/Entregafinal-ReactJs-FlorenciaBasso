@@ -5,62 +5,62 @@ const products = [
         price: 1490,
         category: 'remeras',
         img:'/Remera-estampada-Disney.jpg',
-        stock: 50,
+        stock: 10,
         description: 'Remera estampada '
     },
     {
         id:2,
-        name: 'Perchero Medio Punto',
-        price: 5000,
-        category: 'Muebles',
-        img: 'remera-estampada-soul.jpg',
-        stock: 50,
-        description: 'Perchero recibidor metálico con arco de medio punto'
+        name: 'Remera Soul',
+        price: 1290,
+        category: 'remeras',
+        img: '/remera-estampada-soul.jpg',
+        stock: 10,
+        description: 'Remera estampada'
     },
     {
         id:3,
-        name: 'Luz Desnuda',
-        price: 1500,
-        category: 'Iluminación',
-        img: 'buzo-oversized-bambi.jpg',
-        stock: 50,
-        description: 'Luminaria minimalista con tubo de luz color a elección'
+        name: 'Buzo oversized bambi',
+        price: 2490,
+        category: 'buzos',
+        img: '/buzo-oversized-bambi.jpg',
+        stock: 10,
+        description: 'buzo oversized'
     },
     {
         id:4,
-        name: 'Luz Tubo',
-        price: 2100,
-        category: 'Iluminación',
-        img: 'buzo-oversized-mickey-mouse.jpg',
-        stock: 50,
-        description: 'Luminaria minimalista de caño metálico y bombilla opalina'
+        name: 'Buzo oversized Mickey Mouse',
+        price: 2890,
+        category: 'buzos',
+        img: '/buzo-oversized-mickey-mouse.jpg',
+        stock: 10,
+        description: 'buzo oversized'
     },
     {
         id:5,
-        name: 'Espejo Forma',
-        price: 2500,
-        category: 'Espejos',
-        img: 'buzo-oversized-vintage.jpg',
-        stock: 50,
-        description: 'Espejo con estructura metálica recortada con forma irregular'
+        name: 'Buzo oversized Vintage',
+        price: 2690,
+        category: 'buzos',
+        img: '/buzo-oversized-vintage.jpg',
+        stock: 10,
+        description: 'buzo oversized'
     },
     {
         id:6,
-        name: 'Espejo Rejilla',
-        price: 1300,
-        category: 'Espejos',
-        img: 'gorro-invierno-celeste.jpg',
-        stock: 50,
-        description: 'Espejo de canto pulido con soporte de rejilla metálica'
+        name: 'Gorro de lana',
+        price: 690,
+        category: 'accesorios',
+        img: '/gorro-invierno-celeste.jpg',
+        stock: 10,
+        description: 'gorro de lana tejido color celeste'
     },
     {
         id:7,
-        name: 'Espejo Rejilla',
-        price: 1300,
-        category: 'Espejos',
-        img: 'gorro-piluso-blanco.jpg',
-        stock: 50,
-        description: 'Espejo de canto pulido con soporte de rejilla metálica'
+        name: 'Gorro piluso',
+        price: 990,
+        category: 'accesorios',
+        img: '/gorro-piluso-blanco.jpg',
+        stock: 10,
+        description: 'sombrero blanco tipo piluso de pana'
     },
 ]
 
